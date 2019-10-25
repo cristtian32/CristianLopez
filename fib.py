@@ -1,8 +1,10 @@
-def nombrenuevo(n):
-    a,b=0.1
+def nombre(n):
+    a , b = 0.1
+
     while a<n:
         print(a,end='')
         a,b=b,a+b
     print()
-fib(1000)
+nombre(1000)
+
 
